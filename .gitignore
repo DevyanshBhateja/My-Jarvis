@@ -1,0 +1,41 @@
+# Environment & Secrets (Never commit secrets to public repositories!)
+.env
+.env.*
+!.env.example
+
+# Virtual Environments & Packages
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Word Documents (Generated from source markdown logs)
+*.docx
+
+# IDE & Editor Local Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs & Diagnostics
+*.log
+diagnose_audio.log
+
+# Temporary & Archive Directories
+archive/
+legacy/
+OpenJarvis/

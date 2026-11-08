@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "929576a03278e344",
+    "type": "split",
+    "children": [
+      {
+        "id": "132c035758106e06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4dde1f320b2e65e1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "839d3ba97c5d27c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6554cf6559e75ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1dd133bb09b1d911",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d3fcd77dd4e8bebd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b3fc568fa13314c0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6c40fefd9914cd68",
+    "type": "split",
+    "children": [
+      {
+        "id": "1081a53d840b135d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ad9d3be4e424d13",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "bf1f523795dc4269",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "042edad278cf527d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d40a54cd37d7fa41",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3e3c8ae2eeb2c1bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4dde1f320b2e65e1",
+  "lastOpenFiles": [
+    "06_Thesis_Drafts/Thesis_Part1_Chapters_1_and_2.md",
+    "06_Thesis_Drafts/Master_Thesis_Defense_and_RQ_Answers.md",
+    "06_Thesis_Drafts/Live_Demo_Protocol_and_Defense_Guide.md",
+    "05_Benchmarks/BENCH-002_Empirical_Results.md",
+    "05_Benchmarks/benchmark_raw_data.json",
+    "03_Problem_Log/PRB-014_Stdin_Deadlock_on_Window_Close_and_PortAudio_Shutdown_Freeze.md",
+    "03_Problem_Log/PRB-013_Temporal_Entity_Hallucination_and_Post_TTS_VAD_Hang.md",
+    "02_Architecture_Decisions/ADR-010_Concurrent_SLM_VRAM_Preload_and_Live_Information_Augmentation.md",
+    "02_Architecture_Decisions/ADR-009_Decoupled_Zero_VRAM_Holographic_HUD.md",
+    "03_Problem_Log/PRB-012_Web_Search_Parameter_Binding_and_GUI_Terminal_Pollution.md",
+    "01_Specification/Research_Questions.md",
+    "02_Architecture_Decisions/ADR-008_Extended_Workstation_Suite_and_Media_Routing.md",
+    "03_Problem_Log/PRB-011_NVIDIA_NIM_Reasoning_Token_Exhaustion_and_Split_Brain_Voice.md",
+    "02_Architecture_Decisions/ADR-007_Hierarchical_Edge_Cloud_Relay_and_Silent_Execution.md",
+    "02_Architecture_Decisions/ADR-006_Hardware_Bounded_Audio_Limits_and_State_Inspection.md",
+    "03_Problem_Log/PRB-010_Uncoordinated_Audio_Stream_Collision_and_False_Success_Reporting.md",
+    "03_Problem_Log/PRB-009_Silent_Action_Completion_and_Terminal_Pollution.md",
+    "02_Architecture_Decisions/ADR-005_Two_Tier_Action_Containment_and_Vocal_Telemetry.md",
+    "03_Problem_Log/PRB-008_Out_of_Scope_Command_Hallucination_Stdin_Deadlock.md",
+    "03_Problem_Log/PRB-007_Non_Daemon_Thread_Deadlock_SIGINT.md",
+    "03_Problem_Log/PRB-006_VAD_Cascade_Multilingual_Hallucination.md",
+    "03_Problem_Log/PRB-005_PipeWire_Virtual_Source_Zero_Volume.md",
+    "01_Specification/Supervisor_Guidelines.md",
+    "01_Specification/Thesis_Proposal_Revised.md"
+  ]
+}

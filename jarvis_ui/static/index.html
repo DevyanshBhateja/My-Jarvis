@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J.A.R.V.I.S. Core Interface</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&family=Rajdhani:wght@500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="state-idle">
+  <div class="hud-scanline"></div>
+  <div class="hud-vignette"></div>
+
+  <div class="hud-container">
+    <!-- TOP HEADER -->
+    <header class="hud-header">
+      <div class="brand-group">
+        <div class="brand-logo">
+          <span class="logo-circle"></span>
+          <span class="logo-text">J.A.R.V.I.S.</span>
+        </div>
+        <div class="system-meta">MARK VII NEURAL WORKSTATION // RTX 3050 EDGE</div>
+      </div>
+
+      <div class="status-pills">
+        <div id="state-pill" class="pill state-idle">
+          <span class="pill-dot"></span>
+          <span id="state-label">STANDBY</span>
+        </div>
+        <div id="engine-pill" class="pill engine-local">
+          <span class="pill-icon">🧠</span>
+          <span id="engine-label">LOCAL OLLAMA (3B)</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- CENTER VISUALIZER: ARC REACTOR & SPECTRUM -->
+    <main class="visualizer-wrapper">
+      <div class="reactor-container">
+        <canvas id="reactor-canvas" width="480" height="480"></canvas>
+        <div class="core-glow"></div>
+        <div class="state-watermark" id="state-watermark">READY</div>
+      </div>
+
+      <!-- AUDIO FREQUENCY BARS -->
+      <div class="soundwave-bar-container" id="soundwave-container">
+        <!-- Bars dynamically generated in app.js -->
+      </div>
+    </main>
+
+    <!-- LOWER TELEMETRY & DIALOGUE READOUT -->
+    <footer class="hud-footer">
+      <!-- ACTION CARD -->
+      <div id="action-banner" class="action-banner hidden">
+        <div class="action-tag">ACTION EXECUTION</div>
+        <div class="action-detail" id="action-detail">open_url: https://www.google.com/search?q=weather</div>
+      </div>
+
+      <!-- CONVERSATION DUAL CARD -->
+      <div class="dialogue-panel">
+        <div class="dialogue-card user-card">
+          <div class="card-label">
+            <span class="label-indicator"></span> USER INPUT
+          </div>
+          <div class="card-body" id="user-speech-text">"Listening for wake speech..."</div>
+        </div>
+
+        <div class="dialogue-card jarvis-card">
+          <div class="card-label">
+            <span class="label-indicator"></span> JARVIS RESPONSE
+          </div>
+          <div class="card-body" id="jarvis-speech-text">"Systems active and calibrated. Awaiting your instruction, Sir."</div>
+        </div>
+      </div>
+
+      <!-- SYSTEM METRICS STRIP -->
+      <div class="metrics-strip">
+        <div class="metric"><span class="m-key">HARDWARE:</span> <span class="m-val">NVIDIA RTX 3050 4GB</span></div>
+        <div class="metric"><span class="m-key">VRAM BUDGET:</span> <span class="m-val">&lt; 3.5 GB TARGET</span></div>
+        <div class="metric"><span class="m-key">PIPELINE:</span> <span class="m-val">FULL-DUPLEX REAL-TIME</span></div>
+        <div class="metric"><span class="m-key">LATENCY:</span> <span class="m-val" id="latency-label">SUB-SECOND TTFA</span></div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

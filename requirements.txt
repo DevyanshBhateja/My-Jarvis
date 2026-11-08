@@ -1,0 +1,23 @@
+# Core Neural & Machine Learning Runtime
+torch>=2.1.0
+torchaudio>=2.1.0
+openai-whisper>=20231117
+TTS>=0.22.0
+
+# Audio I/O & DSP Voice Activity Detection
+sounddevice>=0.4.6
+webrtcvad>=2.0.10
+numpy>=1.24.0
+
+# Language Model Providers & Cloud APIs
+openai>=1.0.0
+requests>=2.31.0
+
+# Desktop Automation & Display Interface
+pyautogui>=0.9.54
+
+# Dissertation & Benchmark Compilation
+python-docx>=1.1.0
+pytest>=8.0.0
+websockets>=12.0
+
